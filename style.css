@@ -26,11 +26,11 @@ body > header > h1 > a {
 footer {
   width: 100%;
   padding-left: 1%;
-  background-color: #ffffff;
 }
 
 .my-logo{
     padding: 10px 0 4px 22px;
+    background-color: #ffffff;
 }
   
 footer {
@@ -38,6 +38,7 @@ footer {
     text-align: center;
     color: #ffffff;
     font-size: 14px;
+    background-color: #ff6326;
     bottom: 0;
 }
 
@@ -131,4 +132,20 @@ a {
     left: 50%;
     transform: translate(-50%, 0);
     text-shadow: 1px 1px #000000;
+}
+
+.text-search{
+    text-align: center;
+    color: #ff6326;
+    font-size: 1.6em;
+}
+
+#pac-input{
+    position: relative;
+    height: 38px;
+    font-size: 0.7em;
+    padding: 10px;
+    margin-bottom: 11px;
+    border: solid 2px #ff6326;
+    text-align: center;
 }
