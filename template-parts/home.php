@@ -31,7 +31,7 @@
                 <span class="background-text">GASOLINERAS <br><span class="digit">+350</span><br>Gasolineras activas en España</span>
             </p>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/banner-center.jpg" class="img-center" alt="Banner Center">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/banner-center.jpg" class="img-banner-center" alt="Banner Center">
     </div>
     <div class="section-info">
         <div class="section-right rectangles">
@@ -44,15 +44,16 @@
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
         </div>
+        <div class="section-bottom rectangles img-right">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/fuel.jpg" class="" alt="Combustible">
+        </div>
         <div class="section-bottom section-text-rectangles rectangles">
-        <span class="title-rectangles">Lorem Ipsum is printing</span>
+            <span class="title-rectangles">Lorem Ipsum is printing</span>
             <p class="text-images text-right">
                 Lorem Ipsum is printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
         </div>
-        <div class="section-bottom rectangles">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/fuel.jpg" class="" alt="Combustible">
-        </div>
+        
     </div>
 </div>
