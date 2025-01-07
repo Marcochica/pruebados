@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 body {
-      background-color: #f9f9f9;
+      background-color: #ffffff;
       font-family: Helvetica;
 }
 
@@ -25,21 +25,11 @@ body > header > h1 > a {
 .my-logo,
 footer {
   width: 100%;
-  padding-left: 1%;
 }
 
 .my-logo{
     padding: 10px 0 4px 22px;
     background-color: #ffffff;
-}
-  
-footer {
-    position: fixed;
-    text-align: center;
-    color: #ffffff;
-    font-size: 14px;
-    background-color: #ff6326;
-    bottom: 0;
 }
 
 a {
@@ -119,7 +109,7 @@ a {
     padding-bottom: 60px;
 }
 
-.banner-home img{
+.banner-home img, .img-center{
     width: 100%;
 }
 
@@ -148,4 +138,102 @@ a {
     margin-bottom: 11px;
     border: solid 2px #ff6326;
     text-align: center;
+}
+
+.banner-center{
+    margin-top: 60px;
+    position: relative;
+}
+
+.text-banner-center{
+    width: 33.3%;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.content-text-banner-center{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.background-text{
+    background-color: #ffffff3b;
+    color: #ffffff;
+    padding: 50px 15px;
+    display: block;
+    margin: 10px;
+}
+
+.rectangles{
+    float: left;
+    height: 480px;
+    position: relative;
+    width: 50%;
+}
+
+.digit{
+    font-size: 2em;
+}
+
+.section-info{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 62px;
+}
+
+.section-bottom{
+    padding-top: 42px;
+}
+
+.title-rectangles{
+    color: #ff6326;
+    font-size: 2em;
+}
+
+.section-text-rectangles{
+    padding-top: 10em;
+    text-align: justify;
+}
+
+.text-right{
+    padding-right: 40px;
+}
+
+footer {
+    background-color: #ffffff;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 104px;
+}
+
+.section-orange{
+    background-color: #ff6326;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.footer-top{
+    border-top: solid 4px #ff6326;
+    height: 125px;
+    padding: 10px 34px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.footer-logo, .footer-address{
+    color: #000000;
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+.footer-address span{
+    font-size: 1.2em;
+    color: #ff6326;
+    font-weight: 600;
 }
