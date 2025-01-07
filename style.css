@@ -83,7 +83,7 @@ a {
 
 .menu{
     position: absolute;
-    right: 5%;
+    right: 2%;
     top: 5px;
 }
 
@@ -170,8 +170,13 @@ a {
 .rectangles{
     float: left;
     height: 480px;
+    padding: 0 24px;
     position: relative;
     width: 50%;
+}
+
+.rectangles img{
+    max-width: 100%;
 }
 
 .digit{
@@ -194,12 +199,12 @@ a {
 }
 
 .section-text-rectangles{
-    padding-top: 10em;
+    padding-top: 2em;
     text-align: justify;
 }
 
 .text-right{
-    padding-right: 40px;
+    padding-right: 21%;
 }
 
 footer {
@@ -236,4 +241,49 @@ footer {
     font-size: 1.2em;
     color: #ff6326;
     font-weight: 600;
+}
+
+/*Media Querys*/
+
+@media only screen and (max-width: 1480px) {
+    .text-right {
+        padding-right: 7%;
+    }
+    .rectangles {
+        height: 440px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .rectangles {
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .text-search p{
+        padding: 0 32px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .section-info {
+        max-width: 99%;
+    }
+    .banner-home {
+        padding-bottom: 10px;
+    }
+    .section-text-rectangles {
+        padding-top: 0em;
+    }
+    .text-right {
+        padding-right: 0;
+    }
+    .rectangles {
+        height: 305px;
+        padding: 0 16px;
+    }
+    .title-rectangles {
+        font-size: 1.5em;
+    }
 }
