@@ -1,0 +1,134 @@
+/*
+    Theme Name: Prueba Dos
+    Preview Image: http://localhost/prueba/wp-content/themes/pruebauno/images/banner.png
+    Author: Marco Alexander Chica
+    Author URI: https://totalrenting.es/
+    Description: Mi segunda prueba TotalRenting
+    Version: 1.0.0
+    License: Licencia pública general GNU v3 o posterior
+    License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+      background-color: #f9f9f9;
+      font-family: Helvetica;
+}
+
+body > header > h1 > a {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.my-logo,
+footer {
+  width: 100%;
+  padding-left: 1%;
+  background-color: #ffffff;
+}
+
+.my-logo{
+    padding: 10px 0 4px 22px;
+}
+  
+footer {
+    position: fixed;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 100%;
+    margin:auto;
+}
+
+.content-area {
+    display: inline-block;
+}
+
+.content-thin {
+    width: 100%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-info {
+    width: 100%;
+    text-align: left;
+}
+
+.article-full {
+    width: 99%;
+    padding: 1%;
+}
+
+.content-info,
+.article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+
+#map{
+    height:500px;
+    width: 90%;
+    margin: auto;
+}
+
+.banner{
+    width: 100%;
+}
+
+.menu{
+    position: absolute;
+    right: 5%;
+    top: 5px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.menu ul li a{
+    color: #ff6326;
+}
+
+.menu ul li a:hover{
+    transition: all 3s;
+    color: #424242;
+}
+
+.banner-home{
+    padding-bottom: 60px;
+}
+
+.banner-home img{
+    width: 100%;
+}
+
+.text-banner{
+    position: absolute;
+    color: #ffffff;
+    font-size: 2.5em;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-shadow: 1px 1px #000000;
+}
